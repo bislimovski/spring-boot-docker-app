@@ -7,9 +7,9 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 service:
-  name: nginx
-  type: NodePort
-  externalPort: 8080
+  name: spring-app
+  type: LoadBalancer
+  externalPort: 80
   internalPort: 8080
 ingress:
   enabled: false
