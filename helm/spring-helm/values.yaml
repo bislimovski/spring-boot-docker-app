@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: gcr.io/pivotal-stacker-240507/ibis-boot-app
-  tag: v1
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   name: nginx
